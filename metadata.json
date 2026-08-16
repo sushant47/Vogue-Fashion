@@ -1,0 +1,6 @@
+{
+  "name": "Vogue Vibe - Vivid Fashion",
+  "description": "A high-end responsive fashion e-commerce storefront featuring nocturnal luxury, dynamic deal countdowns, catalog filters, interactive product details, and shopping bag checkout.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,70 @@
+/* Global styles for VOGUE_VIBE / Vivid Fashion */
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import "tailwindcss";
+
+:root {
+  --neon-pink: #FF2A6D;
+  --neon-pink-hover: #ff0d59;
+  --neon-cyan: #05D9E8;
+  --dark-bg: #0c0e14;
+  --card-bg: #161822;
+  --card-border: #232738;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0c0e14;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #232738;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #363c54;
+}
+
+/* Glassmorphism */
+.glass-panel {
+  background: rgba(18, 20, 29, 0.72);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-pill {
+  background: rgba(255, 255, 255, 0.07);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+/* Neon glow animations */
+.glow-pink {
+  box-shadow: 0 0 25px rgba(255, 42, 109, 0.35);
+}
+
+.glow-cyan {
+  box-shadow: 0 0 25px rgba(5, 217, 232, 0.35);
+}
+
+.glow-box-festive {
+  background: linear-gradient(135deg, #102a43 0%, #1e3a8a 50%, #0369a1 100%);
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.25);
+}
+
+/* Material Icons sizing alignment */
+mat-icon {
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+}

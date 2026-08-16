@@ -1,11 +1,11 @@
 {
-  "name": "ai-studio-angular-app",
+  "name": "vogue-fashion",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "dev": "cross-env ng serve --port=3000 --host=0.0.0.0 --allowed-hosts=true ${DISABLE_HMR:+--live-reload=false}",
-    "build": "ng build",
+    "build": "ng build --configuration production --base-href \"/vogue-vibe---vivid-fashion/\" && cp -R docs/browser/. docs/ && rm -rf docs/browser",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint",

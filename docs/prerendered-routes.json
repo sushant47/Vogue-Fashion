@@ -1,7 +1,3 @@
 {
-  "routes": {
-    "/browser": {},
-    "/browser/bag": {},
-    "/browser/wishlist": {}
-  }
+  "routes": {}
 }
